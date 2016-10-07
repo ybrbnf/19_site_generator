@@ -1,0 +1,93 @@
+{
+    "topics": [
+        {
+            "slug": "tutorial",
+            "title": "Арсенал"
+        },
+        {
+            "slug": "python_basics",
+            "title": "Основы Питона"
+        },
+        {
+            "slug": "git",
+            "title": "Гит"
+        }
+    ],
+    "articles": [
+        {
+            "source": "0_tutorial/14_google.md",
+            "title": "Гугл",
+            "topic": "tutorial"
+        },
+        {
+            "source": "0_tutorial/27_devman.md",
+            "title": "Девман",
+            "topic": "tutorial"
+        },
+        {
+            "source": "0_tutorial/29_english.md",
+            "title": "Английский",
+            "topic": "tutorial"
+        },
+        {
+            "source": "0_tutorial/7_codenvy.md",
+            "title": "Кодэнви",
+            "topic": "tutorial"
+        },
+        {
+            "source": "0_tutorial/8_cli.md",
+            "title": "Консоль",
+            "topic": "tutorial"
+        },
+        {
+            "source": "0_tutorial/9_git.md",
+            "title": "Гит и Гитхаб",
+            "topic": "tutorial"
+        },
+        {
+            "source": "1_python_basics/10_pep8.md",
+            "title": "Стайлгайд",
+            "topic": "python_basics"
+        },
+        {
+            "source": "1_python_basics/18_comments.md",
+            "title": "Комментарии",
+            "topic": "python_basics"
+        },
+        {
+            "source": "1_python_basics/1_intro.md",
+            "title": "Зачем нужен Питон",
+            "topic": "python_basics"
+        },
+        {
+            "source": "1_python_basics/2_base_types.md",
+            "title": "Основные типы данных",
+            "topic": "python_basics"
+        },
+        {
+            "source": "1_python_basics/3_base_constructions.md",
+            "title": "Основные конструкции",
+            "topic": "python_basics"
+        },
+        {
+            "source": "1_python_basics/4_types.md",
+            "title": "Типы данных",
+            "topic": "python_basics"
+        },
+        {
+            "source": "1_python_basics/5_modules.md",
+            "title": "Модули",
+            "topic": "python_basics"
+        },
+        {
+            "source": "1_python_basics/6_tips_and_tricks.md",
+            "title": "Полезные приёмы",
+            "topic": "python_basics"
+        },
+        {
+            "source": "4_git/22_git_history.md",
+            "title": "История",
+            "topic": "git"
+        }
+    ]
+}
