@@ -97,6 +97,11 @@
             "source": "2_html/special &amp; symbol.md",
             "title": "Специальный символ &amp;",
             "topic": "html"
+        },
+        {
+            "source": "2_html/html_injection.md",
+            "title": "Взлом с помощью </body>",
+            "topic": "html"
         }
     ]
 }
