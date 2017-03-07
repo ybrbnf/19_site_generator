@@ -34,16 +34,23 @@ def get_article_page(config):
                         }
         filepath = path.dirname(article['source'])
         article_url = get_article_url(article['source'])
-        output_dir = '{0}/{1}'.format(OUTPUT_DIR, filepath)
-        create_dir(output_dir)
-        render_page(article_info, article_url, template)
+        create_dir('{0}/{1}'.format(OUTPUT_DIR, filepath))
+        render_page(article_info, '{0}/{1}'.format(OUTPUT_DIR, article_url), template)
 
 
 def get_article_url(source):
-    source = path.splitext(source)[0].replace(' ', '_')
-    output_source = '{0}/{1}.{2}'.format(OUTPUT_DIR, source, 'html')
+    source = replace_spesial_symbols(source)
+    output_source = '{0}.{1}'.format(source, 'html')
     return output_source
 
+
+def replace_spesial_symbols(source):
+    symbols = ['&amp;', '<', '>', ' ']
+    source = path.splitext(source)[0]
+    for symbol in symbols:
+        if symbol in source:
+            source = source.replace(symbol, '_')
+    return source
 
 def get_template(template_name):
     template_filepath = '{0}/{1}'.format(TEMPLATES_DIR, template_name)
